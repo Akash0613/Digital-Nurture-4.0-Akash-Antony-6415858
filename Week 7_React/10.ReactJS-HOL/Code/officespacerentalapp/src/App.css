@@ -1,0 +1,47 @@
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.office-container {
+  display: flex;
+  gap: 20px;
+}
+
+.office-image {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.office-details {
+  flex: 1;
+  line-height: 1.8;
+  padding-top: 10px;
+}
+
+.office-details p {
+  margin: 12px 0;
+}
+
+.rent {
+  color: red;
+  font-weight: bold;
+}
+
+strong {
+  display: inline-block;
+  width: 80px;
+}
